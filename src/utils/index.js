@@ -12,6 +12,8 @@ const json = {
     about: "About",
     resume: "Resume",
     projects: "Projects",
+    learnings: "Learnings",
+    blogs: "Blogs"
   },
   logo: "YS.",
   about: {

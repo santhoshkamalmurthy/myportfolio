@@ -12,10 +12,12 @@ import {
   Routes,
   Navigate,
 } from "react-router-dom";
-import ScrollToTop from "./utils/ScrollToTop";
+import ScrollToTop from "./utils/scrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Learnings from "./pages/Learnings";
+import Blogs from "./pages/Blogs";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -39,6 +41,8 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/learnings" element={<Learnings />} />
+          <Route path="/blogs" element={<Blogs />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

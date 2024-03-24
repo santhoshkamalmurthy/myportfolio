@@ -12,7 +12,7 @@ import {
 import { IoMdHome, IoMdPerson, IoMdStarOutline } from "react-icons/io";
 import { CgFileDocument } from "react-icons/cg";
 import json from "../../utils";
-import { FaGithub, FaStar } from "react-icons/fa";
+import { FaBook, FaBookOpen, FaGithub, FaPencilAlt, FaStar } from "react-icons/fa";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -57,7 +57,6 @@ function NavBar() {
                 {json.tabs.home}
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -89,6 +88,26 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} />{" "}
                 {json.tabs.resume}
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/learnings"
+                onClick={() => updateExpanded(false)}
+              >
+                <FaBookOpen style={{ marginBottom: "2px" }} />{" "}
+                {json.tabs.learnings}
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/blogs"
+                onClick={() => updateExpanded(false)}
+              >
+                <FaPencilAlt style={{ marginBottom: "2px" }} />{" "}
+                {json.tabs.blogs}
               </Nav.Link>
             </Nav.Item>
             <Nav.Item className="fork-btn">
