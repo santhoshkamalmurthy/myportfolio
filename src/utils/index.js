@@ -32,6 +32,20 @@ const json = {
       demoLink:"https://signatureeventsdecor.com/"
     },
     {
+      image:"resume_with_ai.jpeg",
+      isBlog: false,
+      title:"Resume Generation Using AI",
+      description:"Created a dynamic resume generation system using AI and custom templates. Users provide their professional details, and the AI generates a tailored resume in real-time. The output is converted into a PDF format, ensuring that the resume is well-structured and ready for professional use.",
+      githubLink:"https://github.com/santhoshyennam/resume-generation-using-AI",
+    },
+    {
+      image:"story_with_ai.jpeg",
+      isBlog: false,
+      title:"Story Generation Using AI",
+      description:"Developed an AI-powered story generation feature using OpenAI's GPT-3.5 model. This feature allows users to input a brief or a set of ideas, and the AI generates a complete, coherent story. The generated content is then formatted and saved as a PDF, making it easily shareable and printable.",
+      githubLink:"https://github.com/santhoshyennam/story-teller-using-AI",
+    },
+    {
       image:"atoz.webp",
       isBlog: false,
       title:"A2Z Dukhana (Android App)",
