@@ -90,7 +90,7 @@ function NavBar() {
                 {json.tabs.resume}
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/learnings"
@@ -99,8 +99,8 @@ function NavBar() {
                 <FaBookOpen style={{ marginBottom: "2px" }} />{" "}
                 {json.tabs.learnings}
               </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
+            </Nav.Item> */}
+            {/* <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/blogs"
@@ -109,7 +109,7 @@ function NavBar() {
                 <FaPencilAlt style={{ marginBottom: "2px" }} />{" "}
                 {json.tabs.blogs}
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
             <Nav.Item className="fork-btn">
               <Button
                 href={json.links.portfolio}

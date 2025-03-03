@@ -2,9 +2,9 @@ const json = {
   links: {
     instagram: "https://www.instagram.com/yennam_santhosh/",
     twitter: "https://twitter.com/santhosh_yennam",
-    linkedIn: "https://www.linkedin.com/in/santhosh-yennam-67a55b157/",
-    github: "https://github.com/santhoshyennam",
-    portfolio: "https://github.com/santhoshyennam/myportfolio",
+    linkedIn: "https://www.linkedin.com/in/santhosh-y-67a55b157/",
+    github: "https://github.com/santhoshkamalmurthy",
+    portfolio: "https://github.com/santhoshkamalmurthy/myportfolio",
   },
   name: "YENNAM SANTHOSH KAMAL MURTHY",
   tabs: {
@@ -20,8 +20,8 @@ const json = {
     quote: "Innovation distinguishes between a leader and a follower.",
     otherskills: ["Cricket", "Chess", "Hangout with Friends", "Travelling"],
     myself:
-      "As a software developer with four years of experience, I've honed my skills across the full spectrum of software development, including both freelance projects and formal employment. My journey began with crafting an Android app that's now live on the Google Play Store,laying the groundwork for my passion in web and product development. I am proficient in a range of technologies, including TypeScript, React JS, Next JS, and backend development with Node JS and Spring Boot. My work at Zemoso Technologies allowed me to dive deep into system design, cloud technologies like AWS, and containerization tools such as Docker and Kubernetes, further broadening my skill set. I thrive in environments that challenge me to learn and grow, always pushing the boundaries of what I can achieve with code.",
-  },
+      "Full Stack Developer with 3+ years of full-time experience specializing in both frontend and backend technologies. Proficient in Java, Spring Boot, TypeScript, React.js, and Node.js. Skilled in developing scalable applications, integrating diverse technologies, and optimizing system performance. Strong foundation in data structures, algorithms, and system design. Demonstrated ability to deliver high-quality solutions across various projects and industries."
+    },
   projects: [
     {
       image:"signatureevents.jpeg",
